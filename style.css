@@ -1,0 +1,68 @@
+*{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(90deg, rgba(179,52,178,1) 0%, rgba(182,120,49,1) 28%, rgba(106,68,159,1) 56%, rgba(23,137,190,1) 78%, rgba(0,212,255,1) 100%);
+}
+.container
+{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
+    height: 62vh;
+    width: 28vw;
+    background: radial-gradient(at center, rgba(214, 202, 202, 0.05), rgba(224, 217, 217, 0.5));
+}
+
+.container h1
+{
+    margin: 10px;
+}
+.inpSection{
+
+    margin: 20px 50px;
+    text-align: left;
+}
+input{
+    color: rgba(51, 45, 45, 0.5);
+    font-weight: 650;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
+    font-size: 18px;
+    padding: 15px;
+    height: 35px;
+    margin: 10px;
+    display: flex;
+    width: 20vw;
+}
+.button button{
+    padding: 10px;
+    margin: 10px 110px;
+    font-size: 18px;
+    font-weight: 650;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(224, 217, 217, 0.5);
+}
+.result{
+    position: relative;
+    margin: 20px 0;
+}
+label{
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+}
