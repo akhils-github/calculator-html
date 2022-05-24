@@ -8,24 +8,25 @@
 }
 body{
     display: grid;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 650px;
     place-items: center;
-    background: rgba(29, 46, 24, 0.968);
+    background: linear-gradient(90deg, rgba(179,52,178,1) 0%, rgba(182,120,49,1) 28%, rgba(106,68,159,1) 56%, rgba(23,137,190,1) 78%, rgba(0,212,255,1) 100%);
 }
 .container
 {
     text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(95, 85, 85, 0.019);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
     height: 500px;
-    width: 500px;
-    background: radial-gradient(at center, rgba(136, 90, 10, 0.015), rgba(21, 202, 63, 0.37));
+    width: 650px;
+    background: radial-gradient(at center, rgba(214, 202, 202, 0.05), rgba(224, 217, 217, 0.5));
 }
 
 .container h1
 {
-    margin: 10px;
+    text-align: start;
+    margin: 85px;
 }
 .inpSection{
 
@@ -33,17 +34,17 @@ body{
     text-align: left;
 }
 input{
-    color: rgba(30, 28, 28, 0.936);
+    color: rgba(51, 45, 45, 0.5);
     font-weight: 999;
     outline: none;
     border: none;
-    box-shadow: 5px 5px 10px rgba(60, 5, 14, 0.049);
+    box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
     font-size: 18px;
-    padding: 5px;
-    height: 30px;
+    padding: 15px;
+    height: 35px;
     margin: 10px;
     display: flex;
-    width: 250px;
+    width: 350px;
 }
 .button button{
     padding: 10px;
@@ -51,9 +52,9 @@ input{
     font-size: 18px;
     font-weight: 650;
     cursor: pointer;
-    border: none;
+    border: 10px;
     outline: none;
-    box-shadow: 0 2px 4px rgba(211, 15, 15, 0.018);
+    box-shadow: 0 2px 4px rgba(224, 217, 217, 0.5);
 }
 .result{
     position: relative;
